@@ -1,0 +1,2 @@
+alias kc=/usr/local/bin/kubectl
+alias ll='ls -lrt'
