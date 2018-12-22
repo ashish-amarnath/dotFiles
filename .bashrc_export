@@ -1,0 +1,2 @@
+export GOPATH=~/Work/kubernetes/go
+export PATH=$PATH:$GOPATH/bin

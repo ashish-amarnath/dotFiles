@@ -1,0 +1,8 @@
+save_magic() {
+	dest=${DEST:-$GOPATH/src/github.com/ashish-amarnath/cli-magic/magic.md}
+	echo '```bash' >> ${dest}
+	echo $(pbpaste) >> ${dest}
+	echo '```' >> ${dest}
+
+	echo saved to ${dest}
+}
