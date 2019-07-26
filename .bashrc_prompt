@@ -126,7 +126,7 @@ PS1+="\$(prompt_git \"\[${white}\] on \[${violet}\]\" \"\[${blue}\]\")"; # Git r
 PS1+=" \[${purple}\$(prompt_proxy)";
 PS1+="\n";
 PS1+="\$(prompt_kube \"\[${white}\]\" \"\[${cyan}\]\")";
-PS1+="\[${white}\]💰 \[${reset}\]"; # (and reset color)
+PS1+="\[${white}\]💰 \[${reset}\]"; # `💰` (and reset color)
 export PS1;
 
 PS2="\[${yellow}\] \[${reset}\]";

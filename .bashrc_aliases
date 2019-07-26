@@ -1,5 +1,6 @@
 alias kc=/usr/local/bin/kubectl
 alias ll='ls -lrt'
 alias kca='/usr/local/bin/kubectl -n aws-provider-system'
+alias kcd='/usr/local/bin/kubectl -n docker-provider-system'
 alias kcc='/usr/local/bin/kubectl -n cluster-api-system'
 alias kcs='/usr/local/bin/kubectl -n kube-system' 
