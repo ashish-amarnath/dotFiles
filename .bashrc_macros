@@ -10,7 +10,7 @@ save_magic() {
 sync_fork() {
 	git fetch upstream
 	git merge upstream/master
-	git push
+	git push --follow-tags
 }
 
 sync_master() {
